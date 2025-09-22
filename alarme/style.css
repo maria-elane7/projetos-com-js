@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa_timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #0000002c;
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: larger;
+    margin-bottom: 10px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.caixa_alarme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#tpm_alarme {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #00000059;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: larger;
+    box-shadow: 1px 1px 5px #0000002c;
+}
+
+#btn_alarme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+button {
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: midnightblue;
+    box-shadow: 1px 1px 5px #0000002c;
+}
+
+button:hover {
+    color: rgb(238, 237, 237);
+    background-color: rgb(35, 35, 139);
+    cursor: pointer;
+}
+
+
+.alarme {
+    background-color: red;
+}
